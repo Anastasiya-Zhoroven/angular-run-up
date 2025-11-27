@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th,
+td {
+    width: 33%;
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.wrapper {
+    display: flex;
+    gap: 8px;
+}
+
+.parameter-block {
+    display: flex;
+    gap: 4px;
+}
